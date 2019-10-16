@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AlertPageAnim" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/modal_in</item>
+        <item name="android:windowExitAnimation">@anim/modal_out</item>
+    </style>
+
+    <style name="MyProgressBar">
+        <item name="android:colorControlActivated" tools:ignore="NewApi">#A5DC86</item>
+    </style>
+</resources>

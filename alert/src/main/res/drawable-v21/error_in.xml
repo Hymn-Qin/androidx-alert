@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/error">
+
+    <target
+        android:animation="@animator/error_circle"
+        android:name="circle"/>
+
+    <target
+        android:animation="@animator/error_group"
+        android:name="error_group"/>
+
+    <target
+        android:animation="@animator/error"
+        android:name="error"/>
+
+</animated-vector>

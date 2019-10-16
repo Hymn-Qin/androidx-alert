@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:drawable="@drawable/success"
+    tools:ignore="NewApi">
+
+    <target
+        android:animation="@animator/success_circle"
+        android:name="circle"/>
+
+<!--    <target-->
+<!--        android:animation="@animator/error_group"-->
+<!--        android:name="error_group"/>-->
+
+</animated-vector>

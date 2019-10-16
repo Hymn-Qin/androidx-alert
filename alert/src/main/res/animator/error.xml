@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="together">
+
+    <objectAnimator
+        android:duration="400"
+        android:propertyName="strokeAlpha"
+        android:valueFrom="0.0"
+        android:valueTo="1.0" />
+<!--    <objectAnimator-->
+<!--        android:duration="400"-->
+<!--        android:propertyName="strokeColor"-->
+<!--        android:valueFrom="#F27474"-->
+<!--        android:valueTo="#A5DC86"-->
+<!--        android:startOffset="200"/>-->
+
+<!--    <objectAnimator-->
+<!--        android:duration="400"-->
+<!--        android:propertyName="trimPathEnd"-->
+<!--        android:valueFrom="0"-->
+<!--        android:valueTo="1"-->
+<!--        android:valueType="floatType">-->
+
+<!--    </objectAnimator>-->
+
+<!--    <objectAnimator-->
+<!--        android:duration="200"-->
+<!--        android:propertyName="rotation"-->
+<!--        android:valueFrom="100"-->
+<!--        android:valueTo="0">-->
+
+<!--    </objectAnimator>-->
+</set>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <group android:name="error_group"
+        android:pivotY="50"
+        android:pivotX="50">
+
+        <path
+            android:name="error"
+            android:pathData="M35,65 L50,50 65,65 M35,35 L50,50 65,35"
+            android:strokeWidth="4"
+            android:strokeColor="#F27474"
+            android:strokeLineCap="round" />
+    </group>
+
+    <group
+        android:name="circle_group"
+        android:pivotY="50"
+        android:pivotX="50">
+        <path
+            android:name="circle"
+            android:pathData="M10,50 A40,40,1,1,1 10,51Z"
+            android:strokeWidth="4"
+            android:strokeColor="#F27474"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="bevel"
+            android:strokeMiterLimit="4"
+            android:trimPathOffset="0.5"/>
+    </group>
+    <!--
+    <vector
+            android：name（用于定义这个 vector drawable 的名字）、
+            android：width（定义该 drawble 的内部宽度，支持所有的 Android 系统支持的尺寸单位，通常使用 dp）
+            android：height（定义该 drawble 的内部高度，支持所有的 Android 系统支持的尺寸单位，通常使用 dp）
+            android：viewportWidth(定义矢量图视图的宽度，实际上就是对应 path 路径所使用的数据)
+            android：viewportHeight(定义矢量图视图的高度，实际上就是对应 path 路径所使用的数据)
+            android：tint（定义该 drawble 线条的颜色，定义了后，你再在路径里面设置颜色就没有作用了）
+            android：tintMode（定义 tint 颜色的 Porter-Duff blending 模式，默认值为 src_in，暂时不用理会）
+            android：autoMirrored 设置当系统为 RTL （right-to-left）布局的时候，是否自动镜像该图片。
+            android：alpha 该图片的透明属性
+            >
+        <grup
+              // 有时候我们需要对几个路径一起处理，这样就可以使用 group 元素来把多个 path 放到一起，group 支持的属性有
+              android：name 定义 group 的名字
+              android：rotation 定义该 group 的路径旋转多少度（顺时针旋转）
+              android：pivotX 定义缩放和旋转该 group 时候的 X 参考点。该值相对于 vector 的 viewport 值来指定的。
+              android：pivotY 定义缩放和旋转该 group 时候的 Y 参考点。该值相对于 vector 的 viewport 值来指定的。
+              android：scaleX 定义 X 轴的缩放倍数
+              android：scaleY 定义 Y 轴的缩放倍数
+              android：translateX 定义移动 X 轴的位移。相对于 vector 的 viewport 值来指定的
+              android：translateY 定义移动 Y 轴的位移。相对于 vector 的 viewport 值来指定的>
+              <path
+                    // path 元素里面的 pathData 就是矢量图的路径数据，除此之外还可以设置其他的属性。path 的属性有：
+                    android：name 定义该 path 的名字，这样在其他地方可以通过名字来引用这个路径
+                    android：pathData 和 SVG 中 d 元素一样的路径信息
+                    android：fillColor 定义填充路径的颜色，如果没有定义则不填充路径
+                    android：strokeWidth 定义路径边框的粗细尺寸
+                    android：strokeAlpha 定义路径边框的透明度
+                    android：fillAlpha 定义填充路径颜色的透明度
+                    android：trimPathStart 从路径起始位置(path 的 M 位置)截取后剩下的内容，取值范围从 0 到 1，比如，取值是 0.3 则截取后的内容就是 原长度 - （原长度*0.3）
+                    android：trimPathEnd 从路径起始位置位置截取的内容，取值范围从 0 到 1，比如，取值是 0.3，则截取后的内容就是 原长度*0.3
+                       需要注意的是如果 trimPathStart 和 strimPathEnd 一块使用的话，这里有个规律如果 trimPathEnd 取值大于等于 trimPathStart 的时候结果就是他们两者分别截取后内容的交集，如果 trimPathEnd 小于 trimPathStart 的时候，取值就是他们俩的合集（这是经过我无数的实验得出的规律，你也可以尝试一下）
+                    android：trimPathOffset 其实就是设置开始点的偏移位置（取值 从 0 到 1）1 的话就是开始点和结束的互换了，注意这个路径是可以循环的（下面画图说明）
+                    android：strokeLineCap 设置路径的线头的形状，取值为 butt，round，square 默认是 butt
+                    android：strokeLineJoin 设置路径交界处的连接方式，取值为 miter、round、bevel 默认是 miter
+                    android：strokeMiterLimit 设置斜角的上界 默认是 4 （当 strokeLineJoin 设置为 "miter" 的时候，绘制两条线段以锐角相交的时候，所得的斜面可能相当长，当斜面太长，就会变的不协调。strokeMiterLimit 属性为斜面的长度设置了一个上限。这个属性表示斜面长度和线条长度的比值。当 strokeLineJoin 设置为其他属性时，这个属性是无效的）
+
+            </path>
+
+            vector 还支持 clip-path 元素，定义当前绘制的剪切路径。注意：clip-path 只对当前的 group 和子 group 有效。需要 API 大于等于 21
+
+
+
+
+
+
+
+
+        </grup>
+
+    </vector>
+    -->
+</vector>

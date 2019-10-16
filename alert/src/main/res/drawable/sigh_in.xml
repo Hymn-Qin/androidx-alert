@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:drawable="@drawable/sigh"
+    tools:ignore="NewApi">
+
+    <target
+        android:animation="@animator/error_circle"
+        android:name="circle"/>
+
+    <target
+        android:animation="@animator/error_group"
+        android:name="sigh_group"/>
+
+    <target
+        android:animation="@animator/error"
+        android:name="sigh"/>
+</animated-vector>

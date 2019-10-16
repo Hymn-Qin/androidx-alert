@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/star">
+
+    <target
+        android:animation="@animator/star_rotate"
+        android:name="star_group"/>
+
+    <target
+        android:animation="@animator/star_shape"
+        android:name="star"/>
+
+</animated-vector>
